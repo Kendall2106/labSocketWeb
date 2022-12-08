@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<!-- mi comentario -->
+	<meta charset="utf-8">
+	<title>Ejemplo HTML para el curso Programacion II</title>
+	<meta name="description" content="Estes es un ejemplo de una pagina web para el curso de Programacion II">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+
+	<header>
+		<h1>Visualisacion de Peliculas</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="agregarCategoria.html">Agregar Categoria</a></li>
+				<li><a href="agregarActor.html">Agregar Actor/Actriz</a></li>
+				<li><a href="agregarPelicula.html">Agregar Peliculas</a></li>
+				<li><a href="listarPelicula.html">Gestionar Pelicula</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="contenido">
+		<section id="principal">
+			<form name ="form3" method ="post" action="registrarCategoria">
+				<legend>Registar Categoria</legend>
+				<div>
+					<label for="nombreActor">Nombre:</label>
+					<input type="text" id="nombreActor" name="nombreActor" required/>
+				</div>
+				<div>
+					<label for="descripcion">Descripcion:</label>
+					<textarea id="descripcion" name ="descripcion" cols="30" rows="5" required></textarea>
+				</div>
+				<div>
+					<input type="submit"  value="Agregar Categoria">
+				</div>
+			</form>
+</body>
+
+</html>
